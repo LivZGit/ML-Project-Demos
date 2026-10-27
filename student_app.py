@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 APP_DIR = Path(__file__).resolve().parent
-DATA_PATH = APP_DIR / "data.csv"
+DATA_PATH = APP_DIR / "student_data" / "data.csv"
 CONTINUOUS_FEATURES = {
     "Previous qualification (grade)",
     "Admission grade",
